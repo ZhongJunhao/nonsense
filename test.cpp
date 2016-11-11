@@ -16,7 +16,7 @@ class RealObject : ImaginedObject{
 	public:
 	explicit RealObject(money_unit_t money,house_size_t house) 
 	{
-		if(money<=0 || house <= 130)
+		if(money <= 0 || house <= 130)
 		{
 			throw "error";
 		}
